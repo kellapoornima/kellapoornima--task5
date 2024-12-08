@@ -1,0 +1,207 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2b2d42; /* Charcoal gray */
+    background-color: #edf2f4; /* Muted sand background */
+    background-image: url('https://res.cloudinary.com/diesyy6ac/image/upload/v1733504675/summer-beach-sky.jpg'); /* Updated background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(13, 16, 69, 0.9); /* Teal with transparency */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f7fff7; /* Ivory white */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #f7fff7; /* Ivory white */
+    text-decoration: none;
+}
+
+.nav-btn {
+    background-color: #635fe8; /* Muted coral */
+    border: none;
+    color: #f7fff7; /* Ivory white text */
+    padding: 6px 1px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+    display: block;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff8787; /* Softer coral on hover */
+}
+
+/* Main section styles */
+.intro {
+    padding: 120px 20px 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Creamy white */
+    border-radius: 10px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: #1a535c; /* Deep navy */
+}
+
+.intro p {
+    font-size: 20px;
+    color: #19534f; /* Soft teal */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro button {
+    background-color: #4e5fdd; /* Soft teal */
+    border: none;
+    color: #f7fff7;
+    padding: 6px 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 1px;
+}
+
+.intro button:hover {
+    background-color: #3fbfb3; /* Slightly darker teal */
+}
+
+/* About Japan Section */
+#about-japan {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#about-japan h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #1a535c; /* Deep navy */
+}
+
+#about-japan p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2b2d42;
+}
+
+#about-japan img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Section styles */
+.section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #ff6b6b; /* Muted coral */
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: #2b2d42;
+}
+
+/* Button styles */
+button {
+    background-color: #4ecdc4; /* Soft teal buttons */
+    border: none;
+    color: #f7fff7;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3fbfb3;
+}
+
+/* Carousel Section */
+.carousel-section {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.3); /* Soft transparent white */
+    color: #2b2d42;
+}
+
+/* Updated styles for specific sections */
+#japanese-cuisine h2,
+#japanese-technology h2,
+#japanese-culture h2,
+#places-in-japan h2,
+#anime-in-japan h2 {
+    font-size: 42px;
+    color: #ff6b6b; /* Muted coral for headings */
+}
+
+#japanese-cuisine p,
+#japanese-technology p,
+#japanese-culture p,
+#places-in-japan p,
+#anime-in-japan p {
+    color: #2b2d42; /* Charcoal text */
+}
